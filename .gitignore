@@ -11,4 +11,4 @@
 # End of https://www.gitignore.io/api/jupyternotebook
 
 # Ignore our virtual environment
-tutorial_env/
+tutorial-env/*
