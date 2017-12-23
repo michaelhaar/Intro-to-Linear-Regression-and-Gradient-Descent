@@ -7,6 +7,7 @@ The target is to predict the students test score, when given the amount they stu
 <p align="center">
   <img src="Linear_regression_files/Linear_regression_3_0.png">
 </p>
+
 ## View this project
 
 I've generated a [preview file](PREVIEW.md), which allows us to view the jupyter notebook without any further installation steps.🙌
