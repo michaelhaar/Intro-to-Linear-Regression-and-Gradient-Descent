@@ -12,7 +12,7 @@ The target is to predict the students test score, when given the amount they stu
 
 I've generated a [preview file](PREVIEW.md), which allows us to view the jupyter notebook without any further installation steps.🙌
 
-(Hint: I've done this by running )
+(Hint: I've done this by running `jupyter nbconvert --to markdown Linear_regression.ipynb`)
 
 ## Usage
 
