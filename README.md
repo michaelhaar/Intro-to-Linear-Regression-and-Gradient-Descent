@@ -1,38 +1,52 @@
-# linear_regression_live
-This is the code for the "How to Do Linear Regression the Right Way" live session by Siraj Raval on Youtube
+# Introduction to Linear Regression and Gradient Descent 🏔
 
+This project contains the code for [this](https://youtu.be/uwwWVAgJBcM) video on Youtube by Siraj Raval and is aimed to teach the concept of "Gradient Descent". We are using a small dataset of student test scores and the amount of hours they studied. Intuitively, there must be a relationship right? The more you study, the better your test scores should be. We're going to use [linear regression](https://onlinecourses.science.psu.edu/stat501/node/250) to prove this relationship.
 
-## Overview
+The target is to predict the students test score, when given the amount they studied 📖🤓📚.
 
-This is the code for [this](https://youtu.be/uwwWVAgJBcM) video on Youtube by Siraj Raval. I'm using a small dataset of student test scores and the amount of hours they studied. Intuitively, there must be a relationship right? The more you study, the better your test scores should be. We're going to use [linear regression](https://onlinecourses.science.psu.edu/stat501/node/250) to prove this relationship. 
+<p align="center">
+  <img src="Linear_regression_files/Linear_regression_3_0.png">
+</p>
+## View this project
 
-Here are some helpful links:
+I've generated a [preview file](PREVIEW.md), which allows us to view the jupyter notebook without any further installation steps.🙌
 
-#### Gradient descent visualization
-https://raw.githubusercontent.com/mattnedrich/GradientDescentExample/master/gradient_descent_example.gif
-
-#### Sum of squared distances formula (to calculate our error)
-https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png
-
-#### Partial derivative with respect to b and m (to perform gradient descent)
-https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png
-
-## Dependencies
-
-* numpy
-
-Python 2 and 3 both work for this. Use [pip](https://pip.pypa.io/en/stable/) to install any dependencies.
+(Hint: I've done this by running )
 
 ## Usage
 
-Just run ``python3 demo.py`` to see the results:
+1. Clone this repository
+2. Install the dependencies
+3. Open the `Linear_regression.ipynb` file from the browsers jupyter tap.
 
-   ```
-Starting gradient descent at b = 0, m = 0, error = 5565.107834483211
-Running...
-After 1000 iterations b = 0.08893651993741346, m = 1.4777440851894448, error = 112.61481011613473
-   ```
+## Dependencies
+
+We'll need Python 2 or 3 with the following dependencies:
+
+* numpy ... (for matrix multiplications)
+* matplotlib ... (for creating visualizations)
+* jupyter ... (for starting the jupyter notebook)
+
+I've used [conda](https://conda.io/docs/index.html) to create an virtual environment and to install the dependencies.
+```
+# create a virtual environment with required dependencies
+conda create --name tutorial-env numpy matplotlib jupyter
+
+# activate the environment
+source activate tutorial-env  # for macOS and Linux Users
+
+# run the jupyter notebook server
+jupyter notebook
+
+# ... edit the notebook in your browser
+
+# When done, shut down jupyter notebook and deactivate the virtual environment
+source deactivate tutorial-env  # for macOS and Linux User
+
+```
+
+Of course you can also use [pip](https://pip.pypa.io/en/stable/) to install any dependencies.
 
 ## Credits
 
-Credits for this code go to [mattnedrich](https://github.com/mattnedrich). I've merely created a wrapper to get people started. 
+Credits for this code go to [mattnedrich](https://github.com/mattnedrich) and [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A). I've merely created a summary for myself.
