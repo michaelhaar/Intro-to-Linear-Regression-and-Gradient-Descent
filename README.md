@@ -1,5 +1,7 @@
 # Introduction to Linear Regression and Gradient Descent 🏔
 
+<img style="max-width: 66%;" src="Linear_regression_files/gradient_descent_example.gif">
+
 This project contains the code for [this](https://youtu.be/uwwWVAgJBcM) video on Youtube by Siraj Raval and is aimed to teach the concept of "Gradient Descent". We are using a small dataset of student test scores and the amount of hours they studied. Intuitively, there must be a relationship right? The more you study, the better your test scores should be. We're going to use [linear regression](https://onlinecourses.science.psu.edu/stat501/node/250) to prove this relationship.
 
 The target is to predict the students test score, when given the amount they studied 📖🤓📚.
